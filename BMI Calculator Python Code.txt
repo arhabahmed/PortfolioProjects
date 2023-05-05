@@ -1,0 +1,21 @@
+height = float(input("Enter the height in ft:"))
+weight = float(input("Enter the weight in kg:"))
+BMI = weight/height*height
+print(BMI)
+#Conversion of ft into m
+height = height/3.281 
+print(height)
+
+if BMI < 18.5:
+    print("Under Weight")
+elif BMI = 18.5 - 24.9:
+    print("Normal")
+elif BMI = 25 - 29.9:
+    print("Over Weight")
+elif BMI = 30 - 34.9:
+    print("Obesity (Class I)")
+elif BMI = 35 - 39.9:
+    print("Obesity (Class II)")
+else :
+     BMI > 40: 
+    print("Extreme Obesity")
